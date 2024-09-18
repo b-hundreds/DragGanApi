@@ -1,0 +1,14 @@
+# Drag Gan API
+
+Method: Post
+URL: http://127.0.0.1:5000/upload
+Body String (raw):
+{
+  "image_data": (Base 64 string data),
+  "point_start": [[point_start_1, point_start_2]],
+  "point_target": [[point_target_1, point_target_2]]
+}
+Return:
+{
+  "image_data": (Base 64 string data)
+}
